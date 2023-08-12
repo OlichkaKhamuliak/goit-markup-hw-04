@@ -714,8 +714,7 @@ margin-bottom: 16px;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     opacity: 1;
-    transition: transform var(=--transition), opacity var(var(--transition));
-
+    transition: transform var(--transition), opacity var(--transition);
     width: 408px;
     min-height: 584px;
     border-radius: 4px;
