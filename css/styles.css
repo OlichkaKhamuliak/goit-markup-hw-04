@@ -758,7 +758,7 @@ margin-bottom: 16px;
     width: 24px;
     height: 24px;  
     padding: 0;  
-    transition: background-color var(--transition), border var(--transition), fill var(--transition);
+    transition: background-color var(--transition), border var(--transition);
 }
 
 .modal-btn:hover, .modal-btn:focus {
@@ -767,4 +767,6 @@ margin-bottom: 16px;
     fill: var(--white);
 }
 
-.modal-icon-btn {}
+.modal-icon-btn {
+    transition: fill var(--transition);
+}
